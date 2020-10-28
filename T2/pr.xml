@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project SYSTEM "pr.dtd">
+<project>
+    <main_title>PROJECT RECORD</main_title>
+    <info>
+        <keyname>
+            <bold>KEY NAME:</bold>
+            <str>DAW_TPC2</str>
+        </keyname>
+        <title>
+            <bold>TITLE:</bold>
+            <str>Schema para XML de Project Records</str>
+        </title>
+        <sub_title>
+            <bold>SUBTITLE:</bold>
+            <str>TPC2</str>
+        </sub_title>
+        <begin_date>
+            <bold>BEGIN DATE:</bold>
+            <str>21 de outubro, 2020</str>
+        </begin_date>
+        <end_date>
+            <bold>END DATE:</bold>
+            <str>28 de outubro, 2020</str>
+        </end_date>
+        <supervisor>
+            <bold>SUPERVISOR:</bold>
+            <link href="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</link>
+        </supervisor>
+    </info>
+    <workteam>
+        <title_name>WorkTeam:</title_name>
+        <member>
+            <name>Rui Nuno Borges Cruz Oliveira</name>
+            <number>A83610</number>
+            <email>a83610@alunos.uminho.pt</email>
+            <website>https://github.com/priest110</website>
+        </member>
+    </workteam>
+    <abstract>
+        <title_name>ABSTRACT:</title_name>
+        <paragrafo>XML(<italic>Extensible Markup Language</italic>) é uma linguagem habitualmente usada no compartilhamento e armazenamento de informações e tem como principal característica a capacidade de criação de infraestruturas únicas para diversas linguagens, o que permite que linguagens desconhecidas e/ou de pouco uso possam ser também definidas sem necessidade de serem submetidas a padronizações. De modo a facilitar o tratamento de documentos em XML, temos o DTD(<italic>Document Type Definition</italic>), que permite criar e validar ficheiros XML com determinada estrutura. </paragrafo>
+        <paragrafo>No âmbito da UC de Desenvolvimento de Aplicações Web(DAW), foi-nos dada a conhecer a estrutura de um documento Project Record e, consequentemente, foi-nos proposto desenvolver um documento DTD, onde apresentamos a gramática XML que o PR apresenta. Além disso, foi-nos proposto também a criação de um PR com objetivo de exemplificar a estrutura XML que foi criada.</paragrafo>
+        <paragrafo>O presente documento é resultante do trabalho de casa da semana 2.</paragrafo>
+    </abstract>
+    <deliverables>
+        <title_name>Deliverables:</title_name>
+        <link href="pr.dtd">DTD File</link>
+        <link href="pr.xml">XML File</link>
+    </deliverables>
+    <date>28/10/2020</date>
+</project>
