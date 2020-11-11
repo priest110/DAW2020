@@ -12,15 +12,6 @@ http.createServer(function (req, res){
 			res.write(data)
 			res.end()
 		})
-	}else if(req.url.match(/arqs\/(([1-9][0-9]?)|(1[0-1][0-9])|(12[0-2]))$/)){
-
-		var num = req.url.split("/")[2]
-
-		fs.readFile('site/index.html' + num, function(err, data){
-			res.writeHead(200, {'Content-Type': 'text/html; charset=utf-8'})
-			res.write(data)
-			res.end()
-		})
 	}
 	else if(req.url.match(/arqs\/?$/)){
 
