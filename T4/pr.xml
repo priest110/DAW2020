@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>TPC4</key>
+        <title>Criação de um servidor NodeJS</title>
+        <subtitle>Trabalho de Casa nº4 de DAW</subtitle>
+        <bdate>04-11-2020</bdate>
+        <edate>11-11-2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a83610">
+            <name>Rui Nuno Borges Cruz Oliveira</name>
+            <email>a83610@alunos.uminho.pt</email>
+            <link url="https://github.com/priest110/DAW2020"></link>
+        </member>
+    </team>
+    <abstract>
+        <p>Para o TPC~4 proposto para a UC de Desenvolvimento de Aplicações Web, foi criado um ficheiro XSL e um servidor Node Js para ler e interpretar o ficheiro relacionado com os diferentes arqueossítios do nordeste português.</p>
+        <p>Através ficheiro XSL, é possível separar o ficheiro XML recebido inicialmente em pequenos ficheiros XML, sendo que estes serão utilizados futuramente pelo servidor Node JS, com o objetivo de apresentar um website que espelha a informação retirada anteriormente.</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/priest110/DAW2020/blob/main/T4/server.js">Servidor NodeJS</link>
+        <link url="https://github.com/priest110/DAW2020/blob/main/T4/arq.xml">Ficheiro XML</link>
+        <link url="https://github.com/priest110/DAW2020/blob/main/T4/arq.xsl">Ficheiro XSL</link>
+    </deliverables>
+</pr>
