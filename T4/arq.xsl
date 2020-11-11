@@ -55,7 +55,7 @@
                 <body>
                     <xsl:apply-templates/>
                     <address>
-            [           <a href="#i{count(preceding-sibling::*)+1}">Voltar ao Índice</a>]
+            [           <a href="/arqs/#i{count(preceding-sibling::*)+1}">Voltar ao Índice</a>]
                     </address>
                 </body>
             </html>
