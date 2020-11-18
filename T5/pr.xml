@@ -22,7 +22,7 @@
         <p>Para este trabalho de casa foi ainda necessário a criação de um servidor NodeJS, que responde a pedidos do localhost na porta 4000, sendo eles acessos às lista de <i>alunos</i>,<i>cursos</i> e <i>instrumentos</i>, bem como acessos aos elementos das listas e ainda acesso a um índice referente às três listas.</p>
     </abstract>
     <deliverables>
-        <link url="https://github.com/priest110/DAW2020/blob/main/T5/server.js">Servidor NodeJS</link>
+        <link url="https://github.com/priest110/DAW2020/blob/main/T5/servidor.js">Servidor NodeJS</link>
         <link url="https://github.com/priest110/DAW2020/blob/main/T4/db.json">Base de Dados JSON relativa à escola de música</link>
     </deliverables>
 </pr>
