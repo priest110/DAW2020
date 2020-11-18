@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>TPC5</key>
+        <title>JSON-Server e Servidor NodeJS</title>
+        <subtitle>Trabalho de Casa nº5 de DAW</subtitle>
+        <begin_date>16-11-2020</begin_date>
+        <end_date>17-11-2020</end_date>
+        <supervisor url="http://www4.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <member id="a83610">
+            <name>Rui Nuno Borges Cruz Oliveira</name>
+            <email>a83610@alunos.uminho.pt</email>
+            <link url="https://github.com/priest110/DAW2020"></link>
+        </member>
+    </workteam>
+    <abstract>
+        <p>Para o TPC5 da UC de Desenvolvimento de Aplicações Web, foi criado 
+        um servidor em <i>JavaScript</i>, com o auxílio do Axios, que responde a pedidos do localhost na porta 3000 a uma base de dados json(escola de música) com o uso do <i>JSON-Server</i>. Para mantermos a base dados, é apenas preciso
+        correr o comando <b>json--server --watch 'filename,json'</b>.</p>
+        <p>Para este trabalho de casa foi ainda necessário a criação de um servidor NodeJS, que responde a pedidos do localhost na porta 4000, sendo eles acessos às lista de <i>alunos</i>,<i>cursos</i> e <i>instrumentos</i>, bem como acessos aos elementos das listas e ainda acesso a um índice referente às três listas.</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/priest110/DAW2020/blob/main/T5/server.js">Servidor NodeJS</link>
+        <link url="https://github.com/priest110/DAW2020/blob/main/T4/db.json">Base de Dados JSON relativa à escola de música</link>
+    </deliverables>
+</pr>
