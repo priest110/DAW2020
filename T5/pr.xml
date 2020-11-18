@@ -23,6 +23,6 @@
     </abstract>
     <deliverables>
         <link url="https://github.com/priest110/DAW2020/blob/main/T5/servidor.js">Servidor NodeJS</link>
-        <link url="https://github.com/priest110/DAW2020/blob/main/T4/db.json">Base de Dados JSON relativa à escola de música</link>
+        <link url="https://github.com/priest110/DAW2020/blob/main/T5/db.json">Base de Dados JSON relativa à escola de música</link>
     </deliverables>
 </pr>
