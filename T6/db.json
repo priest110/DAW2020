@@ -1,0 +1,40 @@
+{
+  "tarefas": [
+    {
+      "id": "6",
+      "dateCreated": "2020-11-10",
+      "dateDued": "2020-11-15",
+      "who": "Joao",
+      "what": "Comprar mercearia",
+      "type": "Compras",
+      "state": "Done"
+    },
+    {
+      "id": "3",
+      "dateCreated": "2020-11-10",
+      "dateDued": "2020-10-30",
+      "who": "Pedro",
+      "what": "Limpar a sala",
+      "type": "Limpezas",
+      "state": "ToDo"
+    },
+    {
+      "id": "7",
+      "dateCreated": "2020-11-06",
+      "dateDued": "2020-12-07",
+      "who": "Marco",
+      "what": "Falar com o condominio",
+      "type": "Logística",
+      "state": "Done"
+    },
+    {
+      "id": "8",
+      "dateCreated": "2020-11-03",
+      "dateDued": "2020-11-04",
+      "who": "Joana",
+      "what": "Limpar a cozinha",
+      "type": "Limpezas",
+      "state": "ToDo"
+    }
+  ]
+}
