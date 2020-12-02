@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pr>
     <meta>
-        <key>TPC5</key>
+        <key>TPC6</key>
         <title>Single Page Application para listas ToDo</title>
         <subtitle>Trabalho de Casa nº6 de DAW</subtitle>
         <begin_date>18-11-2020</begin_date>
@@ -22,7 +22,7 @@
         <p>Para este trabalho de casa foi ainda necessário a criação de um servidor NodeJS, que responde a pedidos do localhost na porta 7777, sendo eles acessos à lista de <i>tarefas</i>,bem como atualizações da mesma lista.</p>
     </abstract>
     <deliverables>
-        <link url="https://github.com/priest110/DAW2020/blob/main/T5/server.js">Servidor NodeJS</link>
-        <link url="https://github.com/priest110/DAW2020/blob/main/T4/db.json">Base de Dados JSON relativa à lista de tarefas</link>
+        <link url="https://github.com/priest110/DAW2020/blob/main/T6/server.js">Servidor NodeJS</link>
+        <link url="https://github.com/priest110/DAW2020/blob/main/T6/db.json">Base de Dados JSON relativa à lista de tarefas</link>
     </deliverables>
 </pr>
