@@ -1,0 +1,50 @@
+extends layout
+
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-pale-red.w3-margin-top
+                h3 Editar Estudante
+                .w3-container
+                    form.w3-container(action='/alunos/'+info.numero method="POST")
+                        label
+                            b Nome
+                        input.w3-input.w3-border.w3-white(type="text", name="nome", value=info.nome)
+                        label
+                            b Git
+                        input.w3-input.w3-border.w3-white(type="text", name="git", value=info.git)
+                        br
+                        label
+                            b Seleciona os TPC's feitos
+                                br
+                                label(class="checkbox-inline")
+                                    input(type='checkbox' name='tpc1') 
+                                    b.w3-text-black TPC1   
+                                label
+                                    input(type='checkbox' name='tpc2') 
+                                    b.w3-text-black TPC2   
+                                label(class="checkbox-inline")
+                                    input(type='checkbox' name='tpc3')
+                                    b.w3-text-black TPC3    
+                                label(class="checkbox-inline")
+                                    input(type='checkbox' name='tpc4')
+                                    b.w3-text-black TPC4    
+                                label(class="checkbox-inline")
+                                    input(type='checkbox' name='tpc5')
+                                    b.w3-text-black TPC5    
+                                label(class="checkbox-inline")
+                                    input(type='checkbox' name='tpc6')
+                                    b.w3-text-black TPC6    
+                                label(class="checkbox-inline")
+                                    input(type='checkbox' name='tpc7')
+                                    b.w3-text-black TPC7    
+                                label(class="checkbox-inline")
+                                    input(type='checkbox' name='tpc8')
+                                    b.w3-text-black TPC8
+                            br
+
+                        input.w3-btn.w3-border.w3-margin.w3-green(type="submit", value="Editar")
+            footer.w3-container.w3-pale-red
+                adress.w3-right
+                    a(href='/alunos/' + info.numero)
+                        button.w3-button.w3-red.w3-margin Voltar
