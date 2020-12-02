@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>TPC7</key>
+        <title>Aplicação WEB de uma lista de estudantes</title>
+        <subtitle>Trabalho de Casa nª7 de DAW</subtitle>
+        <bdate>25-11-2020</bdate>
+        <edate>02-12-2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a83610">
+            <name>Rui Nuno Borges Cruz Oliveira</name>
+            <email>a83610@alunos.uminho.pt</email>
+            <link url="https://github.com/priest110/DAW2020"></link>
+        </member>
+    </team>
+    <abstract>
+        <p>Para o tpc 7 da UC de Desenvolvimento de Aplicações Web, foi criada 
+        uma aplicação web que gere uma lista de estudantes. Para tal, foi usada uma base de dados com a informação dos estudantes com o auxílio do <b>Mongo</b>b> e, além disso, foi criada uma <b>API</B> que suportava diversas funcionalidades recorendo à ferramente <b>Express</b>.</p>
+        <p>Esta aplicação permite a inserção, edição e remocão dos estudantes.</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/priest110/DAW2020/tree/main/T7/AppAlunos">Pasta relativa à apicação</link>
+    </deliverables>
+</pr>
